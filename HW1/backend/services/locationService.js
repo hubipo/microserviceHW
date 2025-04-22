@@ -3,7 +3,7 @@ const axios = require('axios');
 // Service to fetch location data from QWeather API
 const fetchLocationData = async (address) => {
   try {
-    const API_KEY = 'fd16d97e22d94919a0cfe7411894a9ca'; // 请替换为你的 QWeather API 密钥
+    const API_KEY = ''; // 请替换为你的 QWeather API 密钥
     const QWEATHER_URL = 'https://geoapi.qweather.com/v2/city/lookup';
 
     // 调用 QWeather API，获取城市信息

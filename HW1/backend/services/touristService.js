@@ -3,7 +3,7 @@ const axios = require('axios');
 // 服务层：从百度地图 API 获取城市的旅游景点信息
 const fetchTouristSpots = async (cityName) => {
   try {
-    const BAIDU_API_KEY = 'UJYroE7lSJrfCSIvX1mxV9mn3KYtRbbL'; // 请替换为你的百度地图 API 密钥
+    const BAIDU_API_KEY = ''; // 请替换为你的百度地图 API 密钥
     const BAIDU_URL = 'https://api.map.baidu.com/place/v2/search';
 
     // 请求百度地图 API 获取旅游景点数据

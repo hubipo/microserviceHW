@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const fetchWeatherData = async (latitude, longitude) => {
   try {
-    const WEATHER_API_KEY = 'fd16d97e22d94919a0cfe7411894a9ca'; 
+    const WEATHER_API_KEY = ''; 
     const WEATHER_API_URL = 'https://devapi.qweather.com/v7/weather/3d'; // 获取3天天气预报
 
     // 请求天气数据
